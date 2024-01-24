@@ -1,0 +1,136 @@
+body{
+    background-color: rgba(190, 228, 241, 0.704);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navv{
+    font-size: 32px;
+}
+nav{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+
+}
+nav ul{
+    display: block;
+    list-style-type: none;
+    height:55px;
+    background-color: rgb(21, 72, 106);
+    color: rgb(1, 11, 20);
+    align-items: center;
+    width: 100%;
+   
+
+}
+
+.nav ul li{
+    padding: 20%;
+    
+}
+
+.brand img{
+    width: 60px;
+    padding: 1px 2px;
+
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+}
+
+.button{
+    position:fixed;
+    height:90px;
+    width: 100%;
+    background-color: rgb(22, 78, 85);
+    color: rgb(237, 241, 244);
+    bottom: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+.icons{
+    margin-top: 124px;
+    padding: 0px;
+}
+.icons i{
+    cursor: pointer;
+    width: 25px;
+    padding: 12px;
+    height: 153px;
+}
+.container{
+    min-height: 40vh;
+    background-color: rgb(65, 172, 239);
+    color: rgb(12, 48, 76);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    position: relative;
+    margin: 74px 200px ;
+    width: 70%;
+    border-radius: 18px 22px;
+    padding: 10px;
+    background-image:  url('cover/head.jpeg');
+    /* float: right; */
+}
+#MyProgressBar{
+    width: 80vw;
+    cursor: pointer;
+    position: sticky;
+text-align: center;
+padding: 1%;
+margin: 30%;
+}
+
+.songitemcontainer{
+    margin-top: 44px;
+}
+.songItem{
+    height: 44px;
+    display: flex;
+    background-color: aliceblue;
+    width: 75%;
+    color: rgb(11, 40, 79);
+    margin: 22px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:13px;
+}
+
+.songItem img{
+    margin:0 34px 1;
+    width: 56px;
+    border-radius: 18px;
+}
+.timestamp{
+   margin: 0 23px; 
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position:absolute ;
+    left: 12vw;
+    font-family: fantasy;
+}
+.songinfo img{
+    height: 20px;
+    width: 25px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
